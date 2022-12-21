@@ -1,0 +1,4 @@
+/gps/pos/centre 0.0 0.0 -0.1 m
+/gps/direction 0 0 1
+/gps/particle deuteron
+/gps/energy 9 MeV

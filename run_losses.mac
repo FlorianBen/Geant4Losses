@@ -1,0 +1,14 @@
+# Macro file for example ED
+#
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+
+# Initialize
+/run/initialize
+/control/execute init_gps.mac
+
+# Run 
+/run/printProgress 5000
+/analysis/setFileName losses.root
+/run/beamOn 500000

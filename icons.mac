@@ -1,0 +1,16 @@
+# This file permits to customize, with commands,
+# the icon menu bar of the G4UIQt sessions not yet implemented other UI drivers (geant4-09-05-ref-09)
+# It has no effect with G4UIterminal.
+
+# User defined icon :
+# /gui/addIcon "Run beam on" user_icon "/run/beamOn 1" run.png 
+
+/gui/addIcon "View Rear" user_icon "/vis/viewer/set/viewpointVector -1 1 -1" icons/view-axonometric.svg
+/gui/addIcon "View Top" user_icon "/vis/viewer/set/viewpointVector 0 1 0" icons/view-top.svg
+/gui/addIcon "View Bottom" user_icon "/vis/viewer/set/viewpointVector 0 -1 0" icons/view-bottom.svg
+/gui/addIcon "View Left" user_icon "/vis/viewer/set/viewpointVector 0 0 1" icons/view-left.svg
+/gui/addIcon "View Right" user_icon "/vis/viewer/set/viewpointVector 0 0 -1" icons/view-right.svg
+/gui/addIcon "View Front" user_icon "/vis/viewer/set/viewpointVector 1 0 0" icons/view-front.svg
+/gui/addIcon "View Rear" user_icon "/vis/viewer/set/viewpointVector -1 0 0" icons/view-rear.svg
+
+/gui/addIcon "Screenshoot" user_icon "/vis/ogl/export scene.png" icons/camera-photo.svg
